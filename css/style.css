@@ -1,0 +1,78 @@
+.pink1 {
+    color: pink;
+}
+
+.greycol {
+    color: grey;
+}
+
+.red1 {
+    color: red;
+}
+
+.green1 {
+    color: green;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.box {
+    /* Задаю висоту елементу */
+    height: 300px;
+    /* Задаю ширину елементу */
+    width: 750px;
+    /* Задаю рамки елементу */
+    border: 1px solid red;
+    /* Роблю радіус */
+    border-radius: 10%;
+    /* Відштовхую зміст від краю гранись */
+    padding: 25px;
+}
+
+header a:focus {
+    color: brown;
+}
+
+.cap {
+    color: red;
+}
+
+.h1 {
+    color: goldenrod;
+}
+
+.d1,
+.d3,
+.d5 {
+    color: rgb(0, 255, 200);
+}
+
+.d2,
+.d4,
+.d6 {
+    color: blue;
+}
+
+a[href="#"][title="hello"] {
+    /* така властивість спрацює тільки для посилань, */
+    color: red;
+    border: inherit;
+    background-color: inherit;
+    font-size: inherit;
+    /* які одночасно містять атрибути href та title */
+}
+
+header a:hover,
+header a:focus {
+    color: pink;
+}
+
+nav {
+    color: olive;
+}
+
+p {
+    font-size: medium;
+}
